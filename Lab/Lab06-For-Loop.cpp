@@ -16,14 +16,14 @@
         Series: 8 6 4 2 0
 */
 #include <stdio.h>
-int main()
-{
+int main(){
     int n;
-    printf("Enter value:");
-    scanf("%d",&n);
+       printf("Enter value:");
+       scanf("%d",&n);
+       
     if(n%2==1){
         printf("Series:");
-       for(int i=1; i<=n; i+=2){
+        for(int i=1; i<=n; i+=2){
             printf(" %d", i);
         } 
     } else{
