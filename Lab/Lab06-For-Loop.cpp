@@ -26,7 +26,8 @@ int main(){
         for(int i=1; i<=n; i+=2){
             printf(" %d", i);
         } 
-    } else{
+    } 
+    else{
         printf("Series:");
         for (int i=n; i>=0; i-=2){
             printf(" %d", i);
